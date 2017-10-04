@@ -1,0 +1,150 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <title>Welcome to Paul's site</title>
+    <link type = "text/css" rel = "stylesheet" href = "style.css">
+  </head>
+  <body>
+    <div id = "nav">
+      <div class = "container">
+        <ul class = "menu">
+          <li><a href = "#about">Who am I</a></li>
+          <li><a href = "#my-photo">My Photos</a></li>
+          <li><a href = "#contact-me">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id = "content">
+      <div class = "container">
+        <div id = "about">
+          <div id = "my-avatar"><img src = "img/my-avatar.jpg" alt = "my-avatar"></div>
+          <div id = "my-info">
+            <h1>I am Paul</h1>
+            <h3>Student from NCTU</h3>
+            <hr>
+            <table>
+              <tr>
+                <th>Birth</th>
+                <td>1995</td>
+              </tr>
+              <tr>
+                <th>學習經歷</th>
+                <td>
+                >交通大學電子物理 工程學士<br>
+                台北市立成功高中 畢業
+                </td>
+              </tr>
+              <tr>
+                <th>開發技能</th>
+                <td>HTML, CSS, Ruby on Rails</td>
+              </tr>
+              <tr>
+                <th>興趣</th>
+                <td>寫作 旅遊 籃球 汽車</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <hr class = "bar">
+        <div id = "my-photo">
+          <h1>My Photos </h1>
+          <div id = "my-photo-gallery">
+            <div class = "item">
+              <img src = "img/fujimount.jpg" alt = "my photo of fuji">
+              <a href = "pg1.html">
+              <div class = "item-info">
+                <h3>富士山/河口湖</h3>
+                <p>
+                比起前陣子的大雪，最近天氣真好到不行。積雪尚未退去，整個山梨縣如夢似幻，好像每一次的呼吸都凝結成了富士山的雪。
+                </p>
+              </div>
+              </a>
+            </div>
+            <div class = "item">
+              <img src = "img/agct.jpg" alt = "agct">
+              <a href = "pg2.html">
+              <div class = "item-info">
+                <h3>AGCT/邊緣日記</h3>
+                <p>
+                邊緣人獨自佔領了邊緣公館的邊緣巷弄裡的邊緣公寓三樓的邊緣大落地窗，窗外有邊緣綠的都市邊緣森林。
+                </p>
+              </div>
+              </a>
+            </div>
+            <div class = "item">
+              <img src = "img/jofen.jpg" alt = "jofen">
+              <a href = "pg3.html">
+              <div class = "item-info">
+                <h3>九份/神隱少女</h3>
+                <p>
+                每個人都想當鬼。
+                </p>
+              </div>
+              </a>
+            </div>
+            <div class = "item">
+              <img src = "img/okinawa1.jpg" alt = "okinawa">
+              <a href = "pg4.html">
+              <div class = "item-info">
+                <h3>沖繩/古宇利島</h3>
+                <p>
+                這天一早下了場大雨，天氣始終偏陰。驅車從恩那一口氣飆到最北的古宇利試圖逃離罩頂烏雲，可惜明顯失敗。
+                </p>
+              </div>
+              </a>
+            </div>
+            <div class = "item">
+              <img src = "img/okinawa2.jpg" alt = "okinawa2">
+              <a href = "pg5.html">
+              <div class = "item-info">
+                <h3>沖繩/浮島花園</h3>
+                <p>
+                中暑的沖繩午後，能找到一間靜謐的小餐館待上一個下午，比擠在擁擠吵雜的國際通好多了。
+                </p>
+              </div>
+              </a>
+            </div>
+            <div class = "item">
+              <img src = "img/lonelyroad.jpg" alt = "lonelyroad">
+              <a href ="pg6.html">
+              <div class = "item-info">
+                <h3>九份/寂寞公路</h3>
+                <p>
+                五百公里亦或是五百年，我們走在各自的寂寞公路，共享寂寞。
+                </p>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class = "bar">
+        <div id = "contact-me">
+
+          <h1>Contact me</h1>
+
+          <form action = "" class = "contact-form">
+            <div class = "form-row">
+              <label for = "name">姓名</label>
+              <input id = "name" name = "name" type = "text">
+            </div>
+            <div class = "form-row">
+              <label for = "email">Email</label>
+              <input id = "email" name = "email" type = "email">
+            </div>
+            <div class = "form-row">
+              <label for = "message">訊息</label>
+              <textarea name = "message" id = "message"></textarea>
+            </div>
+            <div class = "form-row">
+              <button type = "reset">重設</button>
+              <button type = "submit">提交</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
